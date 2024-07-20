@@ -20,7 +20,7 @@ function AppContact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://script.google.com/macros/s/AKfycbzwBYVmVnw8BKiah7gDDIeCElohkE6cPEnCe9JCDWb6jLm1x6_x0sDCym-f8AmUN1XG/exec', {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbxL_anIsu_iUMHlvcvKGWF5yggy6KhVRe6hsFQbbyn3Zu-It2YCCSXyJD2z5b9rpUx3/exec', {
       method: 'POST',
       mode: 'no-cors',
       headers: {
